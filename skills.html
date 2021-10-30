@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tea Station || Skills</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <!-- nav button -->
+    <span class="nav-btn" id="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
+    <!-- end of nav button -->
+    <!-- navbar elements -->
+    <nav class="navbar" id="navbar">
+      <!-- navbar-header -->
+      <div class="navbar-header">
+        <span class="nav-close" id="nav-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <!-- end of navbar-header -->
+      <!-- navbar items -->
+      <ul class="nav-items">
+        <li><a href="index.html" class="nav-link">home</a></li>
+        <li><a href="skills.html" class="nav-link">skills</a></li>
+        <li><a href="about.html" class="nav-link">about</a></li>
+        <li><a href="products.html" class="nav-link">products</a></li>
+      </ul>
+      <!-- end of navbar items -->
+    </nav>
+    <!-- end of navbar elements -->
+    <!-- end of navbar -->
+
+    <!-- header -->
+    <header class="header">
+      <!-- this will contain only the background image in the css-->
+      <div class="banner">
+        <!-- this contains the text and the button in the css-->
+        <h2>Over one hundred flavours of</h2>
+        <h1>
+          specially <br />
+          crafted tea
+        </h1>
+        <a href="skills.html" class="btn banner-btn"> explore </a>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- content divider [this is just a thin bar across the full screen]-->
+    <div class="content-divider"></div>
+    <!-- end of content divider -->
+    <!-- skills section [this is the 4 skills in a row that will dynamically adjust from 4 across to 2 to 1 depending on screen size]-->
+    <section class="skills clearfix">
+      <!--clearfix is neeed so only the 4 skills appear in the row.  this is a hack in the css to push everything else afterwards down to the next row below-->
+      <!-- single skill 1-->
+      <article class="skill">
+        <span class="skill-icon">
+          <i class="fas fa-mug-hot"></i>
+        </span>
+        <h4 class="skill-title">made in UK</h4>
+        <p class="skill-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+          ipsum.
+        </p>
+      </article>
+      <!-- end of single skill 1-->
+      <!-- single skill 2-->
+      <article class="skill">
+        <span class="skill-icon">
+          <i class="fas fa-glass-cheers"></i>
+        </span>
+        <h4 class="skill-title">relaxation</h4>
+        <p class="skill-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+          ipsum.
+        </p>
+      </article>
+      <!-- end of single skill 2-->
+      <!-- single skill 3-->
+      <article class="skill">
+        <span class="skill-icon">
+          <i class="fas fa-bomb"></i>
+        </span>
+        <h4 class="skill-title">energy</h4>
+        <p class="skill-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+          ipsum.
+        </p>
+      </article>
+      <!-- end of single skill 3-->
+      <!-- single skill 4-->
+      <article class="skill">
+        <span class="skill-icon">
+          <i class="fas fa-mortar-pestle"></i>
+        </span>
+        <h4 class="skill-title">family recipe</h4>
+        <p class="skill-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+          ipsum.
+        </p>
+      </article>
+      <!-- end of single skill 4-->
+    </section>
+    <!-- end of skills section -->
+    <!-- footer -->
+    <footer class="footer">
+      <div class="section-center">
+        <!-- social media icons -->
+        <div class="social-icons">
+          <!-- single social media icon -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <!-- end of single social media icon -->
+          <!-- single social media icon -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <!-- end of single social media icon -->
+          <!-- single social media icon -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-instagram"></i>
+            <!-- end of single social media icon -->
+          </a>
+        </div>
+        <!-- end of social media icons -->
+        <!-- footer text -->
+        <h4 class="footer-text">
+          &copy;
+          <span id="date"></span>
+          <span class="company">tea station</span>
+          all rights reserved
+        </h4>
+        <!-- end of footer text -->
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <script src="app.js"></script>
+  </body>
+</html>
